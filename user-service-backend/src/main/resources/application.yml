@@ -1,0 +1,13 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: user-backend-svc
+  datasource:
+    url: jdbc:mysql://user-database.cv1pplcjsejx.us-east-1.rds.amazonaws.com:3306/user_db
+    username: admin
+    password: admin1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
